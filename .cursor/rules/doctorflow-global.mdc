@@ -1,0 +1,27 @@
+---
+description: DoctorFlow — limites e governança comuns (sempre ativo)
+alwaysApply: true
+---
+
+# DoctorFlow — regras globais
+
+Aplica-se a qualquer conversa neste workspace, junto com as regras específicas de papel (Tech Lead, Software Engineer, Code Reviewer).
+
+## Prioridade
+
+- Em caso de conflito entre conveniência e **segurança/privacidade**, prevalecem segurança e privacidade.
+- `LIMITS.md` na raiz do repositório descreve governança; siga-o e não o contradiga.
+
+## Obrigatório
+
+- Não commitar nem sugerir commit de segredos, tokens, senhas ou dados pessoais reais.
+- Não tratar deploy, merge em produção ou migrações destrutivas como automáticos: exija confirmação humana explícita.
+- Não substituir decisão humana de produto, legal/compliance ou operação crítica.
+
+## Dados
+
+- Usar exemplos fictícios ou anonimizados. Não inventar “dados de exemplo” que pareçam PII real.
+
+## Escopo
+
+- Este repo versiona orientação para IA (rules, agents, skills). Mudanças de produto seguem o repositório de código da aplicação.
